@@ -18,14 +18,13 @@ Estou sempre buscando melhorar meus conhecimentos em GO e aprender novas tecnolo
 #### Passo a passo
 1. Crie um arquivo `kind.yaml` para definir o cluster Kind. Exemplo: [kind.yaml](examples/cluster/kind.yaml)
 2. Crie um cluster com o Kind executando o seguinte comando: `kind create cluster --config kind.yaml`
-3. Após a criação do cluster Kind, configure a variável de ambiente KUBECONFIG para o arquivo de configuração do Kubernetes do Kind: `export KUBECONFIG="$(kind get kubeconfig-path --name="kind")"`
-4. Verifique se o cluster está em execução com o comando: `kubectl cluster-info`
-5. Crie um arquivo de configuração kubeconfig.yaml com as configurações do cluster Kind. Você pode usar o seguinte comando para gerar o arquivo: `kind get kubeconfig > kubeconfig.yaml`
-6. Crie um arquivo `hello-word.yaml` que defina um Pod Kubernetes simples. Exemplo: [hello-word.yaml](examples/pod/hello-word.yaml.yaml)
-7. Execute o seguinte comando no terminal para criar o Pod no cluster Kind: `kubectl apply -f hello-world.yaml`
-8. Verifique se o Pod foi criado com sucesso executando o seguinte comando: `kubectl get pods`
-9. Execute o seguinte comando para compilar o código GO e criar um executável: `go build main.go`
-10. Execute o seguinte comando para executar a aplicação GO no cluster Kind: `go run main.go`
+3. Verifique se o cluster está em execução com o comando: `kubectl cluster-info`
+4. Crie um arquivo de configuração kubeconfig.yaml com as configurações do cluster Kind. Você pode usar o seguinte comando para gerar o arquivo: `kind get kubeconfig > kubeconfig.yaml`
+5. Crie um arquivo `hello-word.yaml` que defina um Pod Kubernetes simples. Exemplo: [hello-word.yaml](examples/pod/hello-word.yaml.yaml)
+6. Execute o seguinte comando no terminal para criar o Pod no cluster Kind: `kubectl apply -f hello-world.yaml`
+7. Verifique se o Pod foi criado com sucesso executando o seguinte comando: `kubectl get pods`
+8. Execute o seguinte comando para compilar o código GO e criar um executável: `go build main.go`
+9. Execute o seguinte comando para executar a aplicação GO no cluster Kind: `go run main.go`
 
 ### Objetivo e uso da aplicação GO
 O objetivo desta aplicação é demonstrar como é possível se conectar a um cluster Kubernetes local usando Kind e listar os nomes dos Pods em um determinado namespace. É útil para quem deseja entender como trabalhar com o Kubernetes usando GO.
