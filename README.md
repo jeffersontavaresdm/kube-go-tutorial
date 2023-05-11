@@ -4,15 +4,15 @@
 A aplicação GO que acompanha este repositório é um exemplo simples de como listar os pods em um cluster Kubernetes usando a biblioteca cliente-go e Kind para criar o cluster Kubernetes.<br>O objetivo deste exemplo é demonstrar como interagir com o Kubernetes usando a linguagem GO e fornecer uma base para projetos mais complexos.
 
 ### Pré-requisitos
-- Docker instalado em sua máquina. Você pode baixá-lo no site oficial. [Docker](https://www.docker.com/)
-- Kind instalado em sua máquina. Você pode baixá-lo no site oficial. [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
-- Kubectl instalado em sua máquina. Você pode baixá-lo no site oficial. [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
+- Docker instalado em sua máquina. Você pode baixá-lo no site oficial: [Docker](https://www.docker.com/)
+- Kind instalado em sua máquina. Você pode baixá-lo no site oficial: [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
+- Kubectl instalado em sua máquina. Você pode baixá-lo no site oficial: [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 
 ### Estrutura
 A estrutura deste projeto é relativamente simples. A pasta raiz contém o arquivo main.go, que é o arquivo principal da aplicação GO. Ele contém o código que lista os pods em um cluster Kubernetes usando a biblioteca cliente-go. Além disso, o repositório contém pastas de exemplos, onde você pode encontrar arquivos YAML que podem ser usados para criar um cluster Kubernetes usando Kind e criar um Pod para testar a aplicação GO.
 
 ### Contribuindo
-Estou sempre buscando melhorar meus conhecimentos em GO e adiquirir novos conhecimentos técnicos, adoraría receber contribuições da comunidade. Se você quiser relatar um problema, sugerir uma melhoria ou enviar uma solicitação de recebimento, basta abrir uma nova issue ou um novo pull request neste repositório. Certifique-se de descrever o problema ou melhoria com detalhes suficientes para que eu possa entender o que você está pedindo.
+Estou sempre buscando melhorar meus conhecimentos em GO e aprender novas tecnologias, adoraría receber contribuições da comunidade. Se você quiser relatar um problema, sugerir uma melhoria ou enviar uma solicitação de recebimento, basta abrir uma nova issue ou um novo pull request neste repositório. Certifique-se de descrever o problema ou melhoria com detalhes suficientes para que eu possa entender o que você está pedindo.
 
 ### Como utilizar esta aplicação em um cluster Kubernetes usando Kind
 #### Passo a passo
