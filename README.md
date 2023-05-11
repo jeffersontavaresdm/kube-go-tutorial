@@ -4,9 +4,9 @@
 A aplicação GO que acompanha este repositório é um exemplo simples de como listar os pods em um cluster Kubernetes usando a biblioteca cliente-go e Kind para criar o cluster Kubernetes.<br>O objetivo deste exemplo é demonstrar como interagir com o Kubernetes usando a linguagem GO e fornecer uma base para projetos mais complexos.
 
 ### Pré-requisitos
-- Docker instalado em sua máquina. Você pode baixá-lo no site oficial: [Docker](https://www.docker.com/)
-- Kind instalado em sua máquina. Você pode baixá-lo no site oficial: [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
-- Kubectl instalado em sua máquina. Você pode baixá-lo no site oficial: [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
+- Docker instalado em sua máquina. Você pode baixá-lo no site oficial: <a href="https://www.docker.com/" target="_blank">Docker</a>
+- Kind instalado em sua máquina. Você pode baixá-lo no site oficial: <a href="https://kind.sigs.k8s.io/docs/user/quick-start/#installation" target="_blank">Kind</a>
+- Kubectl instalado em sua máquina. Você pode baixá-lo no site oficial: <a href="https://kubernetes.io/docs/tasks/tools/#kubectl" target="_blank">Kubectl</a>
 
 ### Estrutura
 A estrutura deste projeto é relativamente simples. A pasta raiz contém o arquivo main.go, que é o arquivo principal da aplicação GO. Ele contém o código que lista os pods em um cluster Kubernetes usando a biblioteca cliente-go. Além disso, o repositório contém pastas de exemplos, onde você pode encontrar arquivos YAML que podem ser usados para criar um cluster Kubernetes usando Kind e criar um Pod para testar a aplicação GO.
